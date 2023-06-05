@@ -24,6 +24,7 @@
     <header>
         @yield('title')
     </header>
+
     <nav>
         <a href="{{route('home')}}">Home</a>
         <a href="{{route('animation')}}">Animation</a>
@@ -31,8 +32,9 @@
         <a href="{{route('profile')}}">Profile</a>
         <a href="{{route('contactus')}}">Contact Us</a>
     </nav>
+    
     <main>
-        @yield('content')
+        <p>@yield('content')</p>
     </main>
 </body>
 </html>
