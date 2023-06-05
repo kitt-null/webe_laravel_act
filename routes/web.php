@@ -24,3 +24,11 @@ Route::get('/animation', function () {
 Route::get('/tasks', function () {
     return view('tasks');
 })->name('tasks');
+
+Route::get('/profile', function () {
+    return view('profile');
+})->name('profile');
+
+Route::get('/contactus', function () {
+    return view('contactus');
+})->name('contactus');

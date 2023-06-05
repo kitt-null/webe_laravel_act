@@ -27,9 +27,9 @@
     <nav>
         <a href="{{route('home')}}">Home</a>
         <a href="{{route('animation')}}">Animation</a>
-        <a href="{{route('task')}}">Tasks</a>
-        <a href="">Profile</a>
-        <a href="">Contact Us</a>
+        <a href="{{route('tasks')}}">Tasks</a>
+        <a href="{{route('profile')}}">Profile</a>
+        <a href="{{route('contactus')}}">Contact Us</a>
     </nav>
     <main>
         @yield('content')
