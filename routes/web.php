@@ -17,4 +17,10 @@ Route::get('/', function () {
      return view('home');
 })->name('home');
 
+Route::get('/animation', function () {
+    return view('animation');
+})->name('animation');
 
+Route::get('/tasks', function () {
+    return view('tasks');
+})->name('tasks');

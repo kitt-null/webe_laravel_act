@@ -27,7 +27,7 @@
     <nav>
         <a href="{{route('home')}}">Home</a>
         <a href="{{route('animation')}}">Animation</a>
-        <a href="">Tasts</a>
+        <a href="{{route('task')}}">Tasks</a>
         <a href="">Profile</a>
         <a href="">Contact Us</a>
     </nav>
