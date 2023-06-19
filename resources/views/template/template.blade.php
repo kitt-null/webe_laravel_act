@@ -31,6 +31,11 @@
         <a href="{{route('tasks')}}">Tasks</a>
         <a href="{{route('profile')}}">Profile</a>
         <a href="{{route('contactus')}}">Contact Us</a>
+        @if(auth()->check())
+        <a href="{{route('logout')}}">Log Out</a>
+        @else
+        <a href="{{route('login')}}">Log In</a>
+        @endif        
     </nav>
     
     <main>
